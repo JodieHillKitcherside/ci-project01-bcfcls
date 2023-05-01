@@ -6,9 +6,14 @@ body {
     color: black;
 }
 
+/* headings and logo */
+
 h1 {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     color: #fff;
     background-color: #ce1111;
 }
@@ -20,11 +25,32 @@ h2 {
     color: #ce1111;
 }
 
+.logo {
+    float: left;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+#logo {
+    height: 140px;
+    width: max-content;
+    background-color: #ce1111;
+}
+
+#logo h1 {
+    float: left;
+    flex-direction: column-reverse;
+}
+
+/* nav bar */
+
 nav {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     color: #fff;
+    text-decoration: none !important;
     background-color: black;
-}
 
+}
 
