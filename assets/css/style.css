@@ -46,12 +46,24 @@ h2 {
 
 /* nav bar */
 
-nav {
+#menu {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     color: #fff;
-    text-decoration: none !important;
-    background-color: black;
+}
 
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
