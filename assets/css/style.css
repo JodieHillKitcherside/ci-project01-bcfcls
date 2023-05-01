@@ -80,7 +80,10 @@ h2 {
 /* home page hero image */
 
 #hero-image {
-    width: 100%;
+    width: 58%;
     height: 500px;
-    background-image: url('../images/hero-image.jpg') no-repeat center center;
+    background-image: url('../images/hero-image-squad.jpeg');
+    justify-content: center;
+    align-items: center;
 }
+
