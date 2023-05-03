@@ -1,4 +1,5 @@
 Bugs and glitches:
 Stylesheet was incorrect path - resolved by entering realtive path. 
 Hero image not showing in section, would only show without no repeat - resolved by chnaging to wider image, needed to play around with relative design too. 
-Logo text was missaligning
+Logo text was missaligning - need to fix.
+Table styling not working -
