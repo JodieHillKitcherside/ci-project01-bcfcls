@@ -89,5 +89,19 @@ h2 {
     align-items: center;
 }
 
-/* styling the home page */
+/* footer */
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 2%;
+    color: #ce1111;
+    padding: 5%;
+}
