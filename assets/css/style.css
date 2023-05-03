@@ -34,6 +34,12 @@ h3 {
     letter-spacing: 2px;
 }
 
+h4 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    color: #6a0d0d;
+}
+
 .logo {
     float: left;
     height: 140px;
@@ -141,8 +147,10 @@ tr:hover {
 }
 
 #home-ground-address {
-    display: flex;
-    justify-content: left;
-    flex-direction: row-reverse;
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
 }
+
+/* team player quotes */
 
