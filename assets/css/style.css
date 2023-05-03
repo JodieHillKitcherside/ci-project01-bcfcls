@@ -40,6 +40,18 @@ h4 {
     color: #6a0d0d;
 }
 
+/* logo and header */ 
+
+header {
+    background:#ce1111;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .logo {
     float: left;
     height: 140px;
@@ -153,4 +165,11 @@ tr:hover {
 }
 
 /* team player quotes */
+
+#team-player-quotes {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
 
