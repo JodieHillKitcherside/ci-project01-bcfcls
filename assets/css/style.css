@@ -172,4 +172,12 @@ tr:hover {
     width: 30%;
 }
 
+/* images */
+
+#stick-around {
+    display: flex;
+    justify-content: flex-end; 
+    }
+
+
 
