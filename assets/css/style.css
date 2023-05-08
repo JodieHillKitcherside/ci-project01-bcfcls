@@ -172,6 +172,11 @@ tr:hover {
     width: 30%;
 }
 
+#player-matchweek {
+    margin: 30px;
+    padding: 20px;
+}
+
 /* news and social page */
 
 #upcoming-social-events {
