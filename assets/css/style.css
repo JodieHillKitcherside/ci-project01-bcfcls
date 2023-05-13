@@ -114,6 +114,13 @@ header::after {
     align-items: center;
 }
 
+/* fixtures and results */
+
+#funds-border {
+    border: 10px;
+    border-style: outset;
+}
+
 /* footer */
 
 .social-networks {
@@ -143,6 +150,17 @@ tr:hover {
     background-color: #d37272;
 }
 
+/* image ids */
+
+#jb-drink {
+    position: relative;
+}
+
+#jb-drink img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
 /* map */
 
 .home-ground-map {
