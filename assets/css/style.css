@@ -187,7 +187,15 @@ tr:hover {
 #team-player-quotes {
     float: right;
     margin: 0 1.5%;
-    width: 30%;
+    width: 40%;
+}
+
+#team-player-quotes img {
+    float: right;
+}
+
+#team-player-quotes div {
+    padding-top: 50px;
 }
 
 #player-matchweek {
@@ -214,7 +222,6 @@ tr:hover {
 #center-social {
     padding-top: 30px;
     width: 33%;
-    float: center;
 }
 
 .twitter-timeline {
