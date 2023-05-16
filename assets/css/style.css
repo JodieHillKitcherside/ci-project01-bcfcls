@@ -115,11 +115,30 @@ header::after {
     position: relative;
 }
 
+/* home page text */
+
+#history-box {
+    background-color: #ECECEC ;
+}
+
+#history-box p {
+    text-align: center;
+}
+
+#season-update p {
+    text-align: center;
+}
+
 /* fixtures and results */
 
 #funds-border {
     border: 10px;
     border-style: outset;
+}
+
+#funds-border p {
+    text-align: center;
+    background-color: #ECECEC
 }
 
 /* footer */
