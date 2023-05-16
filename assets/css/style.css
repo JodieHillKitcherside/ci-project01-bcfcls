@@ -37,7 +37,7 @@ h3 {
 h4 {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
-    color: #6a0d0d;
+    color: black;
 }
 
 /* logo and header */ 
@@ -231,21 +231,24 @@ tr:hover {
 
 #left-social {
     padding-top: 30px;
-    width: 33%;
+    padding-left: 300px;
+    width: 23%;
 }
 
 #right-social {
     padding-top: 30px;
-    width: 33%;
+    padding-left: 300px;
+    width: 23%;
 }
 
 #center-social {
     padding-top: 30px;
+    padding-left: 300px;
     width: 33%;
 }
 
 .twitter-timeline {
-    width: 300px;
+    width: 600px;
     height: 300px;
     float: right;
     vertical-align: top;
