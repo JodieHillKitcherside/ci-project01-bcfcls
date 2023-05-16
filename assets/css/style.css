@@ -181,6 +181,8 @@ tr:hover {
     position: absolute;
     right: 0px;
     top: -25vh;
+    margin-right: 300px;
+    margin-top: 50px;
 }
 
 /* team page */
@@ -243,14 +245,16 @@ tr:hover {
 }
 
 #left-social {
+    float: left;
+    margin: 0 1.5%;
     padding-top: 30px;
-    padding-left: 440px;
     width: 23%;
 }
 
 #right-social {
+    float: left;
+    margin: 0 1.5%;
     padding-top: 30px;
-    padding-left: 440px;
     width: 23%;
 }
 
