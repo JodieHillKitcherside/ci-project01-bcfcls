@@ -162,30 +162,31 @@ header::after {
 
 table, th, tr {
     padding: 15px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #dfd9d9;
 }
 
 tr:hover {
-    background-color: #d37272;
+    background-color: #d28d8d;
 }
 
 /* image ids */
 
 #jb-drink {
     position: relative;
+    display: flex;
 }
 
 #jb-drink img {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: -25vh;
 }
 
 /* team page */
 
 #fantasy-rules-table {
-    display: flex;
+    
 }
 
 /* map */
@@ -206,7 +207,7 @@ tr:hover {
 #home-ground-address {
     float: right;
     margin: 0 1.5%;
-    width: 30%;
+    width: 35%;
 }
 
 /* team player quotes */
