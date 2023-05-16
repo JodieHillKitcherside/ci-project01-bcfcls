@@ -107,11 +107,12 @@ header::after {
 /* home page hero image */
 
 #hero-image {
-    width: 58%;
-    height: 500px;
-    background-image: url('../images/hero-image-squad.jpeg');
-    justify-content: center;
-    align-items: center;
+    background-image: url("../images/purple-kit-2.jpeg"); 
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* fixtures and results */
