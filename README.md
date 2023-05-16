@@ -43,11 +43,13 @@ Displays an image and quote from the manager to insprire all users, players or o
 ### Team features
 1. Players and their poitions table:
 This table displays all player names and their postion. This means the user can look up any team player. For example: player A's wife may wish to use the website to find out what postion player A plays. 
-2. Player of the match:
+2. Fantasy Rules 23/24: 
+This feaure displays two tables - match points and bonus points. The user can identify which points they will be allocated and which actions will earn them extra points towards the team's fantasy team. 
+3. Player of the match:
 This feature identifies the latest player of the match. This encourages users to click  on the team page to see updates from the prevous game. A user may be an assigned player that dd not play the previou week and would like to catch up on the highlights.
-3. Latest match highlights:
+4. Latest match highlights:
 This feature lists several points of reference from the previous match. 
-4. Quotes from team Mascot, Captain and Manager:
+5. Quotes from team Mascot, Captain and Manager:
 This featured diplays images and quotes from team members and creates a sense of community. The user can sense what kid of football tram this is from reading the quotes and seeing photos of the team. 
 /* Insert image of the team page */
 
