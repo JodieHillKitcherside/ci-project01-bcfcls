@@ -181,6 +181,13 @@ tr:hover {
     right: 0px;
     top: 0px;
 }
+
+/* team page */
+
+#fantasy-rules-table {
+    display: flex;
+}
+
 /* map */
 
 .home-ground-map {
@@ -216,6 +223,11 @@ tr:hover {
 
 #team-player-quotes div {
     padding-top: 50px;
+    display: flex;
+}
+
+#team-player-quotes img {
+    display: flex;
 }
 
 #player-matchweek {
@@ -231,13 +243,13 @@ tr:hover {
 
 #left-social {
     padding-top: 30px;
-    padding-left: 300px;
+    padding-left: 440px;
     width: 23%;
 }
 
 #right-social {
     padding-top: 30px;
-    padding-left: 300px;
+    padding-left: 440px;
     width: 23%;
 }
 
