@@ -176,6 +176,9 @@ tr:hover {
     position: relative;
     display: flex;
 }
+jb-drink h3 {
+    display: flex;
+}
 
 #jb-drink img {
     position: absolute;
@@ -187,9 +190,55 @@ tr:hover {
 
 /* team page */
 
-#fantasy-rules-table {
-    
+#team-page-top-section {
+    display: flex;
+    justify-content: space-around;
 }
+
+#team-page-top-section table {
+    border: #ce1111 2px solid;
+}
+
+#bcfcls-player-border {
+    border: 2px dotted #ce1111;
+}
+#fantasy-rules-table {
+    border: 2px dotted #ce1111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    width: 70%;
+}
+
+#rules-extras {
+    display: flex;
+}
+
+/* team player quotes */
+
+#team-player-quotes {
+    float: right;
+    margin: 0 1.5%;
+    width: 40%;
+}
+
+#team-player-quotes img {
+    float: right; 
+}
+
+#team-player-quotes div {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#player-matchweek {
+    margin: 30px;
+    padding: 20px;
+}
+
 
 /* map */
 
@@ -212,32 +261,6 @@ tr:hover {
     width: 35%;
 }
 
-/* team player quotes */
-
-#team-player-quotes {
-    float: right;
-    margin: 0 1.5%;
-    width: 40%;
-}
-
-#team-player-quotes img {
-    float: right;
-}
-
-#team-player-quotes div {
-    padding-top: 50px;
-    display: flex;
-}
-
-#team-player-quotes img {
-    display: flex;
-}
-
-#player-matchweek {
-    margin: 30px;
-    padding: 20px;
-}
-
 /* news and social page */
 
 #upcoming-social-events {
@@ -258,17 +281,21 @@ tr:hover {
     width: 23%;
 }
 
-#center-social {
+#bottom-social {
     padding-top: 30px;
-    padding-left: 300px;
+    padding-left: 200px;
     width: 33%;
+}
+
+#twitter {
+    display: flex;
+    top: -25vh;
 }
 
 .twitter-timeline {
     width: 600px;
     height: 300px;
-    float: right;
-    vertical-align: top;
+    display: flex;
     margin-right: 30px;
 }
 
@@ -277,6 +304,24 @@ tr:hover {
     width:auto;
     float: right;
     margin-right: 30px;
+}
+
+/* gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+#gallery > img {
+    width: 100%;
+}
+
+#gallery > video {
+    width: 100%;
 }
 
 
