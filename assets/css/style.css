@@ -206,7 +206,7 @@ tr:hover {
     border: 2px dotted #ce1111;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 30px;
     padding: 30px;
     box-sizing: border-box;
@@ -220,13 +220,14 @@ tr:hover {
 /* team player quotes */
 
 #team-player-quotes {
-    float: right;
+    display: flex;
+    flex-direction: column;
     margin: 0 1.5%;
     width: 40%;
 }
 
 #team-player-quotes img {
-    float: right; 
+    display: flex;
 }
 
 #team-player-quotes div {
@@ -272,15 +273,19 @@ tr:hover {
 #left-social {
     float: left;
     margin: 0 1.5%;
-    padding-top: 30px;
+    padding: 20px; 
     width: 23%;
+    border: 2px double #ce1111;
+    background-color: #f4f2f2;
 }
 
 #right-social {
     float: left;
     margin: 0 1.5%;
-    padding-top: 30px;
+    padding: 20px;
     width: 23%;
+    border: 2px double #ce1111;
+    background-color: #f4f2f2;
 }
 
 #bottom-social {
