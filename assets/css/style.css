@@ -172,19 +172,17 @@ tr:hover {
 
 /* image ids */
 
-#jb-drink {
-    position: relative;
+#jb-goal {
     display: flex;
-    flex-direction: column;
 }
 
-#jb-drink img {
+ #jb-goal img {
     position: absolute;
     right: 0px;
-    top: -25vh;
-    margin-right: 170px;
-    margin-top: 50px;
-}
+    top: 12vh;
+    margin: 120px;
+    box-sizing: border-box;
+} 
 
 /* team page */
 
@@ -276,6 +274,7 @@ tr:hover {
     margin: 1.5%;
     padding: 20px; 
     width: 23%;
+    box-sizing: border-box;
     border: 2px double #ce1111;
     background-color: #f4f2f2;
 }
@@ -284,6 +283,7 @@ tr:hover {
     float: left;
     margin: 1.5%;
     padding: 20px;
+    box-sizing: border-box;
     width: 23%;
     border: 2px double #ce1111;
     background-color: #f4f2f2;
@@ -292,6 +292,7 @@ tr:hover {
 #bottom-social {
     padding-top: 30px;
     padding-left: 70px;
+    box-sizing: border-box;
     width: 33%;
 }
 
@@ -312,6 +313,7 @@ tr:hover {
     width:auto;
     display: flex; 
     margin-right: 30px;
+    box-sizing: border-box;
 }
 
 /* gallery */
@@ -355,8 +357,36 @@ tr:hover {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 45px;
     }
+
+    #team-page-top-section table {
+        border: #ce1111 2px solid;
+    }
+    
+    #bcfcls-player-border {
+        border: 2px dotted #ce1111;
+        margin: 30px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    #fantasy-rules-table {
+        border: 2px dotted #ce1111;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 30px;
+        padding: 30px;
+        box-sizing: border-box;
+        width: 70%;
+    }
+
+    #bottom-social img {
+        width: 150%;
+        height: 150%;
+    }
+    }
+
     }
 }
 
