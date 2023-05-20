@@ -175,13 +175,14 @@ tr:hover {
 #jb-drink {
     position: relative;
     display: flex;
+    flex-direction: column;
 }
 
 #jb-drink img {
     position: absolute;
     right: 0px;
     top: -25vh;
-    margin-right: 300px;
+    margin-right: 170px;
     margin-top: 50px;
 }
 
@@ -329,11 +330,35 @@ tr:hover {
 
 #gallery > video {
     width: 100%;
-
 }
 
 
+/* Media queries */
 
+@media screen and (max-width 1200px) {
+
+    #hero-image {
+        width: 65%;
+        height: 
+    }
+
+    #jb-drink {
+        display: 
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    }
+}
 
 
 
