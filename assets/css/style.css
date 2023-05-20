@@ -176,9 +176,6 @@ tr:hover {
     position: relative;
     display: flex;
 }
-jb-drink h3 {
-    display: flex;
-}
 
 #jb-drink img {
     position: absolute;
@@ -201,13 +198,18 @@ jb-drink h3 {
 
 #bcfcls-player-border {
     border: 2px dotted #ce1111;
+    margin: 30px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 #fantasy-rules-table {
     border: 2px dotted #ce1111;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 30px;
+    margin: 30px;
+    padding: 30px;
+    box-sizing: border-box;
     width: 70%;
 }
 
