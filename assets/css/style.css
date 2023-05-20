@@ -271,8 +271,8 @@ tr:hover {
 }
 
 #left-social {
-    float: left;
-    margin: 0 1.5%;
+    float: left; 
+    margin: 1.5%;
     padding: 20px; 
     width: 23%;
     border: 2px double #ce1111;
@@ -281,7 +281,7 @@ tr:hover {
 
 #right-social {
     float: left;
-    margin: 0 1.5%;
+    margin: 1.5%;
     padding: 20px;
     width: 23%;
     border: 2px double #ce1111;
@@ -290,26 +290,26 @@ tr:hover {
 
 #bottom-social {
     padding-top: 30px;
-    padding-left: 200px;
+    padding-left: 70px;
     width: 33%;
 }
 
 #twitter {
     display: flex;
+    flex-direction: column;
     top: -25vh;
 }
 
 .twitter-timeline {
     width: 600px;
     height: 300px;
-    display: flex;
     margin-right: 30px;
 }
 
 
 .twitter-follow-button {
     width:auto;
-    float: right;
+    display: flex; 
     margin-right: 30px;
 }
 
@@ -317,7 +317,7 @@ tr:hover {
 
 #gallery {
     clear: both;
-    line-height: 0;
+    line-height: 0%; 
     column-count: 4;
     column-gap: 0px;
     row-gap: 0px;
@@ -329,6 +329,7 @@ tr:hover {
 
 #gallery > video {
     width: 100%;
+
 }
 
 

@@ -80,4 +80,5 @@ Bugs and glitches:
 Stylesheet was incorrect path - resolved by entering realtive path. 
 Hero image not showing in section, would only show without no repeat - resolved by changing to wider image, needed to play around with relative design too. 
 Logo text was missaligning - fixed by adding clear: both and displaying as an empty table. 
-
+Twitter section will not display flex
+Fixtures and results h2 "stick around" will not display flex
