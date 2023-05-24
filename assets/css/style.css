@@ -339,14 +339,9 @@ tr:hover {
 
 @media screen and (max-width 1200px) {
 
-    #hero-image {
-        width: 65%;
-        height: 
-    }
-
-    #jb-drink {
-        display: 
-    }
+   /* #jb-goal {
+        
+    }*/
 
 
 }
@@ -360,26 +355,6 @@ tr:hover {
         line-height: 45px;
     }
 
-    #team-page-top-section table {
-        border: #ce1111 2px solid;
-    }
-    
-    #bcfcls-player-border {
-        border: 2px dotted #ce1111;
-        margin: 30px;
-        padding: 30px;
-        box-sizing: border-box;
-    }
-    #fantasy-rules-table {
-        border: 2px dotted #ce1111;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 30px;
-        padding: 30px;
-        box-sizing: border-box;
-        width: 70%;
-    }
 
     #bottom-social img {
         width: 150%;
