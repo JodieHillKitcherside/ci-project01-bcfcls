@@ -270,16 +270,12 @@ tr:hover {
     justify-content: space-between;
 }
 
-#upcoming-social-events {
-    height: 1000px;
-}
 
 #left-social {
     display: flex;
     justify-content: space-between;
     margin: 1.5%;
-    padding: 20px; 
-    width: 23%;
+    padding: 1.5%;
     box-sizing: border-box;
     border: 2px double #ce1111;
     background-color: #f4f2f2;
@@ -289,24 +285,26 @@ tr:hover {
     display: flex;
     justify-content: space-between;
     margin: 1.5%;
-    padding: 20px;
+    padding: 1.5%;
     box-sizing: border-box;
-    width: 23%;
     border: 2px double #ce1111;
     background-color: #f4f2f2;
 }
 
 #bottom-social {
-    padding-top: 20px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    height: 10%;
 }
 
 #twitter {
+    width: 60%;
     top: -25vh;
 }
 
 .twitter-timeline {
-    width: 30%;
+    width: 100%;
 }
 
 
@@ -320,20 +318,36 @@ tr:hover {
 /* gallery */
 
 #gallery {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #d28d8d;
+}
+ 
+gallery img video {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
+
+/*#gallery {
     clear: both;
     line-height: 0%; 
     column-count: 4;
     column-gap: 0px;
     row-gap: 0px;
-}
-
+}*/
+/*
 #gallery > img {
     width: 100%;
 }
 
 #gallery > video {
     width: 100%;
-}
+}*/
 
 
 /* Media queries */
@@ -357,10 +371,10 @@ tr:hover {
     }
 
 
-    #bottom-social img {
+    /*#bottom-social img {
         width: 150%;
         height: 150%;
-    }
+    }*/
     }
 
     }
