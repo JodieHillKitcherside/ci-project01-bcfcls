@@ -18,7 +18,6 @@ h1 {
     background-color: #ce1111;
 }
 
-
 h2 {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
@@ -40,10 +39,10 @@ h4 {
     color: black;
 }
 
-/* logo and header */ 
+/* logo and header */
 
 header {
-    background:#ce1111;
+    background: #ce1111;
 }
 
 header::after {
@@ -79,7 +78,8 @@ header::after {
     color: #fff;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
     text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ header::after {
 /* home page hero image */
 
 #hero-image {
-    background-image: url("../images/purple-kit-2.jpeg"); 
+    background-image: url("../images/purple-kit-2.jpeg");
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ header::after {
 /* home page text */
 
 #history-box {
-    background-color: #ECECEC ;
+    background-color: #ECECEC;
 }
 
 #history-box p {
@@ -160,7 +160,9 @@ header::after {
 
 /* tables */
 
-table, th, tr {
+table,
+th,
+tr {
     padding: 15px;
     text-align: center;
     border-bottom: 1px solid #dfd9d9;
@@ -176,13 +178,14 @@ tr:hover {
     display: flex;
 }
 
- #jb-goal img {
+
+#jb-goal img {
     position: absolute;
     right: 0px;
     top: 12vh;
     margin: 120px;
     box-sizing: border-box;
-} 
+}
 
 /* team page */
 
@@ -201,6 +204,7 @@ tr:hover {
     padding: 30px;
     box-sizing: border-box;
 }
+
 #fantasy-rules-table {
     border: 2px dotted #ce1111;
     display: flex;
@@ -218,29 +222,28 @@ tr:hover {
 
 /* team player quotes */
 
-#team-player-quotes {
-    display: flex;
-    flex-direction: column;
-    margin: 0 1.5%;
-    width: 40%;
-}
-
-#team-player-quotes img {
-    display: flex;
-}
-
-#team-player-quotes div {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 #player-matchweek {
     margin: 30px;
     padding: 20px;
 }
 
+#quotes-mentions-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#team-mentions {
+    display: flex;
+    justify-content: space-around;
+}
+
+#captain-manager-quotes {
+    display: flex;
+    justify-content: space-around;
+    border: #ce1111 3px;
+    padding: 1.5%;
+    margin: 1%;
+}
 
 /* map */
 
@@ -270,7 +273,6 @@ tr:hover {
     justify-content: space-between;
 }
 
-
 #left-social {
     display: flex;
     justify-content: space-between;
@@ -294,23 +296,21 @@ tr:hover {
 #bottom-social {
     display: flex;
     justify-content: space-between;
-    width: 10%;
-    height: 10%;
+    /*width: 10%;
+    height: 10%;*/
 }
 
 #twitter {
-    width: 60%;
-    top: -25vh;
+    width: 65%;
 }
 
 .twitter-timeline {
     width: 100%;
 }
 
-
 .twitter-follow-button {
-    width:auto;
-    display: flex; 
+    width: auto;
+    display: flex;
     margin-right: 30px;
     box-sizing: border-box;
 }
@@ -326,35 +326,18 @@ tr:hover {
     overflow-x: auto;
     background-color: #d28d8d;
 }
- 
+
 gallery img video {
     display: inline;
     width: 150px;
     height: 150px;
 }
 
-/*#gallery {
-    clear: both;
-    line-height: 0%; 
-    column-count: 4;
-    column-gap: 0px;
-    row-gap: 0px;
-}*/
-/*
-#gallery > img {
-    width: 100%;
-}
-
-#gallery > video {
-    width: 100%;
-}*/
-
-
 /* Media queries */
 
 @media screen and (max-width 1200px) {
 
-   /* #jb-goal {
+    /* #jb-goal {
         
     }*/
 
@@ -370,15 +353,8 @@ gallery img video {
         line-height: 45px;
     }
 
-
     /*#bottom-social img {
         width: 150%;
         height: 150%;
     }*/
-    }
-
-    }
 }
-
-
-
