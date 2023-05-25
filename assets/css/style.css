@@ -355,4 +355,31 @@ tr:hover {
         line-height: 45px;
     }
 
+    #bcfcls-player-border {
+        border: none;
+    }
+
+    #fantasy-rules-table {
+        border: none;
+    }
+
+    #team-mentions > div {
+        width: 35%;
+        height: 35%;
+    }
+
+    #team-mentions > img {
+        width: 35%;
+        height: 35%;
+    }
+
+    #captain-manager-quotes > div {
+        width: 35%;
+        height: 35%;
+    }
+
+    #captain-manager-quotes > img {
+        width: 35%;
+        height: 35%;
+    }
 }
