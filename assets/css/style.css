@@ -344,12 +344,6 @@ tr:hover {
 /* Media queries */
 
 @media screen and (max-width 1200px) {
-
-    /* #jb-goal {
-        
-    }*/
-
-
 }
 
 @media screen and (max-width: 950px) {
@@ -361,8 +355,4 @@ tr:hover {
         line-height: 45px;
     }
 
-    /*#bottom-social img {
-        width: 150%;
-        height: 150%;
-    }*/
 }
