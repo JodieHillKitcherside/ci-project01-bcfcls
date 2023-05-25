@@ -230,7 +230,7 @@ tr:hover {
 
 /* team player quotes */
 
-#player-matchweek {
+.player-matchweek {
     margin: 30px;
     padding: 20px;
 }
@@ -254,7 +254,12 @@ tr:hover {
     margin: 1%;
 }
 
-/* map */
+/* map and central london premier league table */
+
+#central-london-premier-section {
+    display: flex;
+    justify-content: space-between;
+}
 
 .home-ground-map {
     padding-bottom: 50%;
@@ -331,7 +336,7 @@ tr:hover {
 
 /* gallery */
 
-#gallery {
+.gallery {
     display: flex;
     width: 100%;
     margin: 0;
@@ -342,9 +347,6 @@ tr:hover {
 
 
 /* Media queries */
-
-@media screen and (max-width 1200px) {
-}
 
 @media screen and (max-width: 950px) {
     #menu {
@@ -379,6 +381,27 @@ tr:hover {
     }
 
     #captain-manager-quotes > img {
+        width: 35%;
+        height: 35%;
+    }
+
+    .home-ground-map iframe {
+        width: auto;
+        height: auto;
+    }
+
+    #jb-goal {
+        width: auto;
+        height: auto;
+    }
+
+    #news-social-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bottom-social {
+        border: none;
         width: 35%;
         height: 35%;
     }
