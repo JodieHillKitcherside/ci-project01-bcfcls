@@ -235,12 +235,13 @@ tr:hover {
 #team-mentions {
     display: flex;
     justify-content: space-around;
+    padding: 1.5%;
+    margin: 1%;
 }
 
 #captain-manager-quotes {
     display: flex;
     justify-content: space-around;
-    border: #ce1111 3px;
     padding: 1.5%;
     margin: 1%;
 }
@@ -270,7 +271,7 @@ tr:hover {
 
 #news-social-sections {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #left-social {
@@ -295,13 +296,18 @@ tr:hover {
 
 #bottom-social {
     display: flex;
-    justify-content: space-between;
-    /*width: 10%;
-    height: 10%;*/
+    justify-content: space-around;
+    margin: 1.5%;
+    padding: 1.5%;
+    box-sizing: border-box;
+    width: 768px;
+    height: 489px;
+    border: 6px double #ce1111;
 }
 
 #twitter {
-    width: 65%;
+    width: max-content;
+    overflow: auto;
 }
 
 .twitter-timeline {
