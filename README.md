@@ -49,7 +49,7 @@ This feaure displays two tables - match points and bonus points. The user can id
 This feature identifies the latest player of the match. This encourages users to click  on the team page to see updates from the prevous game. A user may be an assigned player that dd not play the previou week and would like to catch up on the highlights.
 4. Latest match highlights:
 This feature lists several points of reference from the previous match. 
-5. Quotes from team Mascot, Captain and Manager:
+5. Quotes from team Mascot, a Get Well Soon and Captain and Manager:
 This featured diplays images and quotes from team members and creates a sense of community. The user can sense what kid of football tram this is from reading the quotes and seeing photos of the team. 
 /* Insert image of the team page */
 
@@ -63,8 +63,10 @@ This feature updates the user with regular twitter comments. Twitter is the most
 /* Insert image of the news page */
 
 ### Gallery features
-1. Lists all photos and videos:
-Here the user can see all team asscoaited photos and videos, including previous match snippets. There is not currently one page on any social media platform that can group all images together in a gallery. This means the user can browse all images and videos at once. 
+1. Lists all photos:
+Here the user can see all team asscoaited photos. There is not currently one page on any social media platform that can group all images together in a gallery. This means the user can browse all images at once. 
+2. List all videos:
+Here the user can see all team asscoaited videos, including previous match snippets. There is not currently one page on any social media platform that can group all videos together in a gallery. This means the user can browse all videos at once. 
 /* Insert image of the gallery page */
 
 ### Features left to implement
@@ -72,13 +74,39 @@ Here the user can see all team asscoaited photos and videos, including previous 
 Allowing the user to put forward comments to the Captain and Manager about player tactics, season schedule, events, and so forth. 
 
 
+### Validator Testing 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](insert link)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](insert link)
+
+### Unfixed Bugs
+Hero Image - I was unable to size the hero image appropriate to responsive media. I researched this at https://dev.to/billraymond/creating-a-pure-responsive-css-grid-hero-image-or-banner-image-2pej however, didn't quite understand the code. When I tried to apply, this didn't work. 
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - insert link.
 
 
+## Credits 
 
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-Bugs and glitches:
-Stylesheet was incorrect path - resolved by entering realtive path. 
-Hero image not showing in section, would only show without no repeat - resolved by changing to wider image, needed to play around with relative design too. 
-Logo text was missaligning - fixed by adding clear: both and displaying as an empty table. 
-Twitter section will not display flex
-Fixtures and results h2 "stick around" will not display flex
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content 
+
+- All table content taken from [FA Social](https://fulltime.thefa.com/displayTeam.html?id=431724151)
+- The icons in the footer and team.html were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- Images and videos sourced directly from the BCFCLS team Manager and Captain. All photos and videos taken on personal media devices and uploaded.
+- Logo Image sourced from [BCFC_fans_fc Twitter](https://twitter.com/bcfc_fans_fc)
