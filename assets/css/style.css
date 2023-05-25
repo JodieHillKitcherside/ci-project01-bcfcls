@@ -177,16 +177,16 @@ tr:hover {
 #latest-upcoming-section {
     display: flex;
     justify-content: space-between;
+    flex: auto;
 }
 
-#latest-upcoming-section > * {
-    width: 1500px;
-  }
+#latest-upcoming-section>* {
+    width: 1000px;
+}
 
 #jb-goal {
     display: flex;
 }
-
 
 #jb-goal img {
     right: 0px;
@@ -338,14 +338,8 @@ tr:hover {
     padding: 0;
     white-space: nowrap;
     overflow-x: auto;
-    background-color: #d28d8d;
 }
 
-gallery img video {
-    display: inline;
-    width: 150px;
-    height: 150px;
-}
 
 /* Media queries */
 
