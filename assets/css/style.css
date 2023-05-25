@@ -172,7 +172,16 @@ tr:hover {
     background-color: #d28d8d;
 }
 
-/* image ids */
+/* fixtures-results */
+
+#latest-upcoming-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#latest-upcoming-section > * {
+    width: 1500px;
+  }
 
 #jb-goal {
     display: flex;
@@ -180,7 +189,6 @@ tr:hover {
 
 
 #jb-goal img {
-    position: absolute;
     right: 0px;
     top: 12vh;
     margin: 120px;
