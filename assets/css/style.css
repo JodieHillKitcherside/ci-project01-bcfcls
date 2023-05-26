@@ -363,6 +363,14 @@ tr:hover {
 
 /* media queries */
 
+@media screen and (max-width: 1180px) {
+
+    #bottom-social img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
 @media screen and (max-width: 950px) {
 
     /* All pages */
@@ -409,7 +417,7 @@ tr:hover {
         align-items: center;
     }
 
-    #bcfcls-player-border {
+    #bcfcls-player-border div {
         width: 50%;
     }
 
@@ -417,32 +425,12 @@ tr:hover {
         width: 100%;
     }
 
-    #fantasy-rules-table {
+    #fantasy-rules-table div {
         width: 50%;
     }
 
     #fantasy-rules-table table {
         width: 100%;
-    }
-
-    #team-mentions > div {
-        width: 35%;
-        height: 35%;
-    }
-
-    #team-mentions > img {
-        width: 35%;
-        height: 35%;
-    }
-
-    #captain-manager-quotes > div {
-        width: 35%;
-        height: 35%;
-    }
-
-    #captain-manager-quotes > img {
-        width: 35%;
-        height: 35%;
     }
 
     #quotes-mentions-section {
@@ -459,9 +447,10 @@ tr:hover {
 
     #bottom-social {
         border: none;
-        width: 35%;
-        height: 35%;
+        width: 100%;
+        height: fit-content;
     }
 
-    /* gallery page features */ 
+    /* gallery page features */
 }
+
