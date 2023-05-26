@@ -338,6 +338,10 @@ tr:hover {
     overflow-x: auto;
 }
 
+.gallery img {
+    height: 400px;
+}
+
 /* footer */
 
 .social-networks {
@@ -427,6 +431,7 @@ tr:hover {
 
     #bcfcls-player-border div {
         width: 50%;
+
     }
 
     #bcfcls-player-border table {
