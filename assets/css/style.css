@@ -246,20 +246,19 @@ tr:hover {
 
 #quotes-mentions-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #team-mentions {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1.5%;
     margin: 1%;
 }
 
 #team-mentions img {
-    width: 50%;
-
-    height: 50%;
+    width: 25%;
+    height: 60%;
 }
 
 #team-mentions h2 {
@@ -268,14 +267,14 @@ tr:hover {
 
 #captain-manager-quotes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1.5%;
     margin: 1%;
 }
 
 #captain-manager-quotes img {
-    width: 115px;
-    height: 150px;
+    width: 25%; /*115px;*/
+    height: 60%; /*150px;*/
 }
 
 /* news and social page feautres */
