@@ -76,9 +76,10 @@ Allowing the user to put forward comments to the Captain and Manager about playe
 
 ### Validator Testing 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](insert link)
+  - No errors were returned when passing the index.html through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2F8000-jodiehillki-project1bcf-tq9a2fe5a8y.ws-eu98.gitpod.io%2Findex.html#l36c21)
+  - 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](insert link)
+  - No errors were found when passing through the ccs official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-jodiehillki-project1bcf-tq9a2fe5a8y.ws-eu98.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 Hero Image - I was unable to size the hero image appropriate to responsive media. I researched this at https://dev.to/billraymond/creating-a-pure-responsive-css-grid-hero-image-or-banner-image-2pej however, didn't quite understand the code. When I tried to apply, this didn't work. 
