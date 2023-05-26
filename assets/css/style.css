@@ -141,23 +141,6 @@ header::after {
     background-color: #ECECEC
 }
 
-/* footer */
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 180%;
-    margin: 2%;
-    color: #ce1111;
-    padding: 5%;
-}
-
 /* tables */
 
 table,
@@ -345,6 +328,23 @@ tr:hover {
     overflow-x: auto;
 }
 
+/* footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 2%;
+    color: #ce1111;
+    padding: 5%;
+}
+
 
 /* Media queries */
 
@@ -396,6 +396,26 @@ tr:hover {
     }
 
     #news-social-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #latest-upcoming-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fantasy-rules-table {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #central-london-premier-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #quotes-mentions-section {
         flex-direction: column;
         align-items: center;
     }
