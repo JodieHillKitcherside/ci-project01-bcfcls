@@ -64,6 +64,7 @@ header::after {
 
 .logo h1 {
     font-size: 180%;
+    text-decoration: none;
 }
 
 /* nav bar */
@@ -107,6 +108,7 @@ header::after {
 #hero-image {
     background-image: url("../images/purple-kit-2.jpeg");
     width: 100%;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -392,7 +394,7 @@ tr:hover {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 45px;
+        line-height: 30px;
     }
 
     #hero-image {
@@ -407,7 +409,7 @@ tr:hover {
         align-items: center;
     }
     
-       .home-ground-map iframe {
+    .home-ground-map iframe {
         width: auto;
         height: auto;
     }
@@ -465,3 +467,10 @@ tr:hover {
     }
 }
 
+@media screen and (max-width: 800px) {
+
+ #team-mentions img {
+    width: 30%;
+    height: 40%;
+ }
+}
