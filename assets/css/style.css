@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Roboto+Flex:wght@300&display=swap');
 
+/* all pages features */ 
+
 body {
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300;
     color: black;
 }
 
-/* headings and logo */
+/* style headings */
 
 h1 {
     font-family: 'Barlow', sans-serif;
@@ -91,6 +93,8 @@ header::after {
     letter-spacing: 1.5px;
 }
 
+/* menu anchors */
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -104,7 +108,7 @@ header::after {
     border-bottom: 1px solid #fff;
 }
 
-/* home page hero image */
+/* landing image */
 
 #hero-image {
     background-image: url("../images/purple-kit-2.jpeg");
@@ -115,32 +119,6 @@ header::after {
     object-fit: fill;
     image-rendering: auto;
 
-}
-
-/* home page text */
-
-#history-box {
-    background-color: #ECECEC;
-}
-
-#history-box p {
-    text-align: center;
-}
-
-#season-update p {
-    text-align: center;
-}
-
-/* fixtures and results */
-
-#funds-border {
-    border: 10px;
-    border-style: outset;
-}
-
-#funds-border p {
-    text-align: center;
-    background-color: #ECECEC
 }
 
 /* tables */
@@ -157,7 +135,31 @@ tr:hover {
     background-color: #d28d8d;
 }
 
-/* fixtures-results */
+/* home page features */
+
+#history-box {
+    background-color: #ECECEC;
+}
+
+#history-box p {
+    text-align: center;
+}
+
+#season-update p {
+    text-align: center;
+}
+
+#funds-border {
+    border: 10px;
+    border-style: outset;
+}
+
+#funds-border p {
+    text-align: center;
+    background-color: #ECECEC
+}
+
+/* fixtures and results page features */
 
 #latest-upcoming-section {
     width: 100%;
@@ -167,7 +169,7 @@ tr:hover {
     padding-top: 40px;
 }
 
-/* map and central london premier league table */
+/* central london premier league and map section */
 
 #central-london-premier-section {
     display: flex;
@@ -193,7 +195,7 @@ tr:hover {
     width: 35%;
 }
 
-/* team page */
+/* team page features */
 
 #team-page-top-section {
     display: flex;
@@ -226,7 +228,7 @@ tr:hover {
     display: flex;
 }
 
-/* team player quotes */
+/* team mentions player quotes section */
 
 .player-matchweek {
     margin: 30px;
@@ -252,7 +254,7 @@ tr:hover {
     margin: 1%;
 }
 
-/* news and social page */
+/* news and social page feautres */
 
 #news-social-sections {
     display: flex;
@@ -307,7 +309,7 @@ tr:hover {
     box-sizing: border-box;
 }
 
-/* gallery */
+/* gallery page features */
 
 .gallery {
     display: flex;
@@ -336,7 +338,7 @@ tr:hover {
     padding: 5%;
 }
 
-/* Media queries */
+/* media queries */
 
 @media screen and (max-width: 950px) {
 
@@ -355,7 +357,7 @@ tr:hover {
         background-size: cover;
     }
 
-    /* Fixtures and Results page */
+    /* fixtures and results page features */
 
     #latest-upcoming-section {
         flex-direction: column;
@@ -377,7 +379,7 @@ tr:hover {
         align-items: center;
     }
 
-    /* Team page */
+    /* team page features */
 
     #fantasy-rules-table {
         flex-direction: column;
@@ -417,7 +419,7 @@ tr:hover {
         align-items: center;
     }
 
-    /* News and Social Page */
+    /* news and social page features */
 
     #news-social-sections {
         flex-direction: column;
@@ -430,5 +432,5 @@ tr:hover {
         height: 35%;
     }
 
-    /* Gallery page */ 
+    /* gallery page features */ 
 }
