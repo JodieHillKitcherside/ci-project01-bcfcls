@@ -131,6 +131,10 @@ tr {
     border-bottom: 1px solid #dfd9d9;
 }
 
+table {
+    width: 100%;
+}
+
 tr:hover {
     background-color: #d28d8d;
 }
@@ -235,6 +239,11 @@ tr:hover {
     padding: 20px;
 }
 
+.player-matchweek img {
+    width: 100%;
+    height: 100%;
+}
+
 #quotes-mentions-section {
     display: flex;
     justify-content: space-around;
@@ -247,11 +256,21 @@ tr:hover {
     margin: 1%;
 }
 
+#team-mentions img {
+    width: 50%;
+    height: 50%;
+}
+
 #captain-manager-quotes {
     display: flex;
     justify-content: space-around;
     padding: 1.5%;
     margin: 1%;
+}
+
+#captain-manager-quotes img {
+    width: 115px;
+    height: 150px;
 }
 
 /* news and social page feautres */
