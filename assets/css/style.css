@@ -160,24 +160,37 @@ tr:hover {
 /* fixtures-results */
 
 #latest-upcoming-section {
-    display: flex;
-    justify-content: space-between;
-    flex: auto;
-}
-
-#latest-upcoming-section>* {
-    width: 1000px;
+    width: 2500px;
 }
 
 #jb-goal {
-    display: flex;
+    padding-top: 40px;
 }
 
-#jb-goal img {
-    right: 0px;
-    top: 12vh;
-    margin: 120px;
-    box-sizing: border-box;
+/* map and central london premier league table */
+
+#central-london-premier-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-ground-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.home-ground-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#home-ground-address {
+    float: right;
+    margin: 0 1.5%;
+    width: 35%;
 }
 
 /* team page */
@@ -237,32 +250,6 @@ tr:hover {
     justify-content: space-around;
     padding: 1.5%;
     margin: 1%;
-}
-
-/* map and central london premier league table */
-
-#central-london-premier-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.home-ground-map {
-    padding-bottom: 50%;
-    position: relative;
-}
-
-.home-ground-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
-
-#home-ground-address {
-    float: right;
-    margin: 0 1.5%;
-    width: 35%;
 }
 
 /* news and social page */
@@ -347,7 +334,6 @@ tr:hover {
     color: #ce1111;
     padding: 5%;
 }
-
 
 /* Media queries */
 
