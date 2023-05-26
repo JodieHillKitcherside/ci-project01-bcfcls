@@ -1,11 +1,11 @@
 # BCFCLS
-The BCFCLS website is a site that hopes to keep the 'Bristol City Football Club London Supporters' team up to date with their upcoming season agenda, fixtures, league standing and social media. The site is targeted to both the team players and club fans who are looking for updates on previous matches, how to get to their next home ground game, and upcoming socials. Users can also stay up to date with the team's social media and see a gallery of match videos and images. 
-/* insert image of wedsbite here */
+The BCFCLS website is a site that hopes to keep the 'Bristol City Football Club London Supporters' team up to date with their upcoming season agenda, fixtures, league standing and social media. 
+The site's main target market group are the BCFCLS players: male, mid 20s- mid-30s. The user would use this site to keep up to date with upcoming fixtures, status in the premier league verusus other football clubs, see new posts for social events, review the gallery and so forth. A user would predominantly revist the site to see the next fixtures, skim the updates on the club's status in the central premier league, and keep an ear out for any mentions in the highlighhts from last week. 
+The site is also targeted to the club fans and prospective recruits who are looking for updates on previous matches, how to get to their next home ground game, and upcoming socials they may wish to join with the players. Users can also stay up to date with the team's social media and see a gallery of match videos and images. 
+![amiresponsive.co.uk](am-i-responsive.png)
 
 # Features
 The BCFCLS wesbite includes a home page with season updates and several other pages including Fixtures, team information, Social events and a gallery. 
-
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ## Existing Features
 ### Navigation Bar
