@@ -160,7 +160,7 @@ tr:hover {
 /* fixtures-results */
 
 #latest-upcoming-section {
-    width: 2500px;
+    width: 100%;
 }
 
 #jb-goal {
@@ -339,6 +339,9 @@ tr:hover {
 /* Media queries */
 
 @media screen and (max-width: 950px) {
+
+    /* All pages */
+
     #menu {
         clear: left;
         float: left;
@@ -348,7 +351,37 @@ tr:hover {
     }
 
     #hero-image {
-        object-fit: cover;
+        height: 300px;
+        background-size: cover;
+    }
+
+    /* Fixtures and Results page */
+
+    #latest-upcoming-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+       .home-ground-map iframe {
+        width: auto;
+        height: auto;
+    }
+
+    #jb-goal {
+        width: auto;
+        height: auto;
+    }
+
+    #central-london-premier-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Team page */
+
+    #fantasy-rules-table {
+        flex-direction: column;
+        align-items: center;
     }
 
     #bcfcls-player-border {
@@ -379,37 +412,14 @@ tr:hover {
         height: 35%;
     }
 
-    .home-ground-map iframe {
-        width: auto;
-        height: auto;
+    #quotes-mentions-section {
+        flex-direction: column;
+        align-items: center;
     }
 
-    #jb-goal {
-        width: auto;
-        height: auto;
-    }
+    /* News and Social Page */
 
     #news-social-sections {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #latest-upcoming-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #fantasy-rules-table {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #central-london-premier-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #quotes-mentions-section {
         flex-direction: column;
         align-items: center;
     }
@@ -419,4 +429,6 @@ tr:hover {
         width: 35%;
         height: 35%;
     }
+
+    /* Gallery page */ 
 }
