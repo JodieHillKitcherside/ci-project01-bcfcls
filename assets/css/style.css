@@ -54,22 +54,16 @@ header::after {
 }
 
 .logo {
-    float: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     height: 140px;
     width: 140px;
     border-radius: 50%;
 }
 
-#logo-text {
-    height: 140px;
-    width: 100%;
-    background-color: #ce1111;
-}
-
-#logo h1 {
-    float: left;
-    flex-direction: column-reverse;
-    font-size: 280%;
+.logo h1 {
+    font-size: 180%;
 }
 
 /* nav bar */
@@ -81,7 +75,7 @@ header::after {
 }
 
 #menu,
-#logo {
+.logo {
     line-height: 75px;
     text-transform: uppercase;
 }
@@ -162,7 +156,7 @@ tr:hover {
     background-color: #ECECEC;
 }
 
-/* fixtures and results page features */
+/* Fixtures page features */
 
 #latest-upcoming-section {
     width: 100%;
@@ -277,7 +271,7 @@ tr:hover {
     height: 60%; /*150px;*/
 }
 
-/* news and social page feautres */
+/* Social page feautres */
 
 #news-social-sections {
     display: flex;
@@ -363,6 +357,20 @@ tr:hover {
 
 /* media queries */
 
+@media screen and (max-width: 1240px) {
+    
+    .logo {
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    #menu {
+        font-size: 11px;
+        margin-right: 16px;
+    }
+}
+
+
 @media screen and (max-width: 1180px) {
 
     #bottom-social img {
@@ -388,7 +396,7 @@ tr:hover {
         background-size: cover;
     }
 
-    /* fixtures and results page features */
+    /* Fixtures page features */
 
     #latest-upcoming-section {
         flex-direction: column;
@@ -438,7 +446,7 @@ tr:hover {
         align-items: center;
     }
 
-    /* news and social page features */
+    /* Social page features */
 
     #news-social-sections {
         flex-direction: column;
@@ -450,7 +458,5 @@ tr:hover {
         width: 100%;
         height: fit-content;
     }
-
-    /* gallery page features */
 }
 

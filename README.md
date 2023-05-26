@@ -3,14 +3,14 @@ The BCFCLS website is a site that hopes to keep the 'Bristol City Football Club 
 /* insert image of wedsbite here */
 
 # Features
-The BCFCLS wesbite includes a home page with season updates and several other pages including fixtures and results, team information, news and social events and a gallery. 
+The BCFCLS wesbite includes a home page with season updates and several other pages including Fixtures, team information, Social events and a gallery. 
 
 You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ## Existing Features
 ### Navigation Bar
 
-Featured on all five pages, the fully responsive navigation bar includes links to the Logo, Home page, Fixtures and Results, Team, News and Social and Gallery. This is position in the bar at the top of the page and easily displayed in a red panel containing the logo and navigation bar. It is identical in each page.
+Featured on all five pages, the fully responsive navigation bar includes links to the Logo, Home page, Fixtures, Team, Social and Gallery. This is position in the bar at the top of the page and easily displayed in a red panel containing the logo and navigation bar. It is identical in each page.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 /* Insert image of the nav bar */
 
@@ -27,7 +27,7 @@ This text gives a breif synopsys of the foundation of the team. This allows the 
 This section addresses the upcoming season and gives notice to fees and expectations. This provides the user with information to pay for their season position on the team via bank details and gives notice to the team protocol. 
 /* Insert image of the home page */
 
-### Fixtures and Results features
+### Fixtures features
 1. Latest Results table:
 This table provides the user information on the live results, contatining the last 4 results from previous games. This means the user can stay updated on previous wins, losses or draws.
 2. Upcoming fixtures table:
@@ -53,7 +53,7 @@ This feature lists several points of reference from the previous match.
 This featured diplays images and quotes from team members and creates a sense of community. The user can sense what kid of football tram this is from reading the quotes and seeing photos of the team. 
 /* Insert image of the team page */
 
-### News and Social features 
+### Social features 
 1. List of upcoming events:
 This lists any upcoming social events hosted by the team. This encourages the user to get involved, player or observer. 
 2. Photo of the team on a previous social:
