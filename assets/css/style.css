@@ -423,6 +423,16 @@ tr:hover {
     #central-london-premier-section {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+    }
+
+    #central-london-premier-section table {
+        width: 100%;
+    }
+  
+    #home-ground-address iframe {
+        width: 100%;
+        height: 100%;
     }
 
     /* team page features */
