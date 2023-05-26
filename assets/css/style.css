@@ -108,7 +108,7 @@ header::after {
 
 #hero-image {
     background-image: url("../images/purple-kit-2.jpeg");
-    height: 700px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
