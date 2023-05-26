@@ -111,8 +111,10 @@ header::after {
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    object-fit: fill;
+    image-rendering: auto;
+
 }
 
 /* home page text */
@@ -299,6 +301,7 @@ tr:hover {
     width: 768px;
     height: 489px;
     border: 6px double #ce1111;
+    image-rendering: auto;
 }
 
 #twitter {
@@ -355,6 +358,10 @@ tr:hover {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 45px;
+    }
+
+    #hero-image {
+        object-fit: cover;
     }
 
     #bcfcls-player-border {
