@@ -112,13 +112,12 @@ header::after {
 
 #hero-image {
     background-image: url("../images/purple-kit-2.jpeg");
-    height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     object-fit: fill;
     image-rendering: auto;
-
 }
 
 /* tables */
@@ -160,7 +159,7 @@ tr:hover {
 
 #funds-border p {
     text-align: center;
-    background-color: #ECECEC
+    background-color: #ECECEC;
 }
 
 /* fixtures and results page features */
@@ -215,6 +214,7 @@ tr:hover {
     margin: 30px;
     padding: 30px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 #fantasy-rules-table {
@@ -258,7 +258,12 @@ tr:hover {
 
 #team-mentions img {
     width: 50%;
+
     height: 50%;
+}
+
+#team-mentions h2 {
+    width: 100%;
 }
 
 #captain-manager-quotes {
@@ -406,11 +411,19 @@ tr:hover {
     }
 
     #bcfcls-player-border {
-        border: none;
+        width: 50%;
+    }
+
+    #bcfcls-player-border table {
+        width: 100%;
     }
 
     #fantasy-rules-table {
-        border: none;
+        width: 50%;
+    }
+
+    #fantasy-rules-table table {
+        width: 100%;
     }
 
     #team-mentions > div {
