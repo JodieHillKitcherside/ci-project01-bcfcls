@@ -246,30 +246,30 @@ tr:hover {
     justify-content: space-evenly;
 }
 
-#team-mentions {
+.team-mentions {
     display: flex;
     justify-content: space-evenly;
     padding: 1.5%;
     margin: 1%;
 }
 
-#team-mentions img {
-    width: 25%;
+.team-mentions img {
+    width: 30%;
     height: 60%;
 }
 
-#team-mentions h2 {
+.team-mentions h2 {
     width: 100%;
 }
 
-#captain-manager-quotes {
+.captain-manager-quotes {
     display: flex;
     justify-content: space-evenly;
     padding: 1.5%;
     margin: 1%;
 }
 
-#captain-manager-quotes img {
+.captain-manager-quotes img {
     width: 15%;
     height: 50%;
 }
