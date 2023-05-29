@@ -163,17 +163,18 @@ tr:hover {
     width: 100%;
 }
 
-#jb-goal {
-    padding-top: 40px;
-    width: 45%;
-    height: 50%;
-}
-
 /* central london premier league and map section */
 
 #central-london-premier-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#jb-goal img {
+    padding-top: 40px;
+    width: 392px;
+    height: 707px;
+    padding-left: 40px;
 }
 
 .home-ground-map {
@@ -426,9 +427,8 @@ tr:hover {
     }
 
     #jb-goal img {
-        width: 50%;
-        height: 55%; 
-        align-items: center;
+        width: 30%;
+        height: 54%; 
     }
 
     #central-london-premier-section {
