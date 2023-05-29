@@ -36,7 +36,7 @@ This table lists the upcoming matches to notify the user of the next game. Users
 3. Central League table:
 This table groups all teams in the Central London Premier League. This will tell the user what postion BCFCLS current sit at, should they be interested to track the league standings. This also tells the user of competitiors standings. 
 4. Map of the home ground:
-This feautres displays the address and google map to the home ground. This will guide all users to the location of their majority matches. 
+This feautres displays the address and google map to the home ground. This will guide all users to the location of their majority matches. User can play around with the map on the page to see nearby how to access the park or for shps, resturants, public transport links. 
 5. Photo of the boys at the goal:
 Displays an image from a recent match to insprire all users, players or observers. 
 ![BCFCLS Fixtures - Table and Map](assets/images/screenshots-readme/fixtures-main-features.png)
@@ -88,11 +88,31 @@ Allowing the user to put forward comments to the Captain and Manager about playe
 2. Javascript link to pay for the season team placement fee.
 
 ### Validator Testing 
-- HTML
+#HTML
   - No errors were returned when passing the index.html through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2F8000-jodiehillki-project1bcf-tq9a2fe5a8y.ws-eu98.gitpod.io%2Findex.html#l36c21)
   - 
-- CSS
+
+#CSS
   - No errors were found when passing through the ccs official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-jodiehillki-project1bcf-tq9a2fe5a8y.ws-eu98.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+#Code Testing
+  - Nav Bar: All navigation links take to the corresponding page. The main logo image on each page links to the home page. 
+  - Footer: All footer links open in a new tab for each social media site. NB: User has to be logged in to the social media platform to access the information, as per any social media site. 
+  - Fixtures - Map Link: Google maps on the fixtures page displays the home ground site, if the user clicks 'view on a larger map' this opens in a new tab. 
+  - Social - Twitter Link: Twitter timeline and the 'follow @' button both open in a new tab, directly to the teams twitter page. 
+  - Social - Event link to map page: Event box suggests a link to the fixtures page where the map is. 
+
+#Media Response 
+  - Pages are designed to adjust items in to a column and centrally read as media devices get smaller.
+  - Logo and menu text adjusts dependant on the screen size. 
+  - Maps, all tables, and main images all re-size depandant on the screen. 
+  - Borders and divs have been placed not to over spill. 
+  Examples:
+  ![iPhone11 Home](assets/images/screenshots-readme/iphone11-home.jpg)
+  ![iPhone11 Fixtures](assets/images/screenshots-readme/iphone11-fixtures-tables.jpg) 
+  ![iPadMini Tables](assets/images/screenshots-readme/tables-ipadmini.jpg) 
+  ![iPadMini Team Mentions](assets/images/screenshots-readme/team-mentions-ipad-mini.jpg)
+  ![SamsungGalaxy8 Gallery](assets/images/screenshots-readme/samsunggalazy8-gallery.jpg)
 
 ### Unfixed / Solved Bugs 
 - Logo and h1 in the .header would not display side by side without an imposed margin, the design did not fit well. Instead, the logo and h1 are positioned parralel and central to keep the design fluid independant of the screen size. 
