@@ -71,8 +71,7 @@ header::after {
 
 /* nav bar */
 
-#menu,
-.logo {
+.header {
     line-height: 75px;
     text-transform: uppercase;
 }
@@ -362,6 +361,8 @@ tr:hover {
 }
 
 /* media queries */
+
+
 
 @media only screen and (min-width: 0px),
 screen and (max-width: 990px) {
