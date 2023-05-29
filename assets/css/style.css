@@ -50,6 +50,7 @@ header {
 .header {
     line-height: 75px;
     text-transform: uppercase;
+    /*line-height: 40px;*/
 }
 
 header::after {
@@ -71,7 +72,8 @@ header::after {
 
 /* nav bar */
 
-#menu ul, .logo {
+#menu ul,
+.logo {
     text-align: center;
 }
 
@@ -79,11 +81,10 @@ header::after {
     display: inline-block;
     list-style-type: none;
     letter-spacing: 3px;
-    margin-right: 20px;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
-    font-size: 15px;
     color: #fff;
+    padding-right: 10px;
 }
 
 /* menu anchors */
@@ -361,17 +362,11 @@ tr:hover {
 
 /* media queries */
 
-@media screen and (max-width: 1180px) {
+@media screen and (min-width: 990px) {
 
-    .logo>h1 {
-        font-size: 40px;
-        line-height: 30px;
-    }
-
-    #menu li {
-        letter-spacing: 2px;
-        margin-right: 20px;
-        font-size: 16px;
+    .logo img {
+        max-width: 150px;
+        max-height: 150px;
     }
 
     #bottom-social img {
@@ -387,10 +382,9 @@ tr:hover {
         line-height: 30px;
     }
 
-    #menu li {
-        letter-spacing: 2px;
-        margin-right: 16px;
-        font-size: 11px;
+    .logo img {
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
@@ -398,10 +392,11 @@ tr:hover {
 
     /* All pages */
 
-    #menu ul, .logo {
-        line-height: 30px; 
+    #menu ul,
+    .logo {
+        line-height: 30px;
     }
-    
+
     .logo h1 {
         font-size: 2.5vmax !important;
     }
@@ -491,5 +486,17 @@ tr:hover {
     #team-mentions img {
         width: 30%;
         height: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo>h1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    #menu li {
+        letter-spacing: 2px;
+        font-size: 8px;
     }
 }
