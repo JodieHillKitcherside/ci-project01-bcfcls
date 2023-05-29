@@ -108,11 +108,16 @@ Allowing the user to put forward comments to the Captain and Manager about playe
   - Maps, all tables, and main images all re-size depandant on the screen. 
   - Borders and divs have been placed not to over spill. 
   Examples:
+  iPhone11 View - Home
   ![iPhone11 Home](assets/images/screenshots-readme/iphone11-home.jpg)
+  iPhone11 View - Fixtures
   ![iPhone11 Fixtures](assets/images/screenshots-readme/iphone11-fixtures-tables.jpg) 
+  iPad Mini View - Tables
   ![iPadMini Tables](assets/images/screenshots-readme/tables-ipadmini.jpg) 
+  iPad Mini View - Team Mentions
   ![iPadMini Team Mentions](assets/images/screenshots-readme/team-mentions-ipad-mini.jpg)
-  ![SamsungGalaxy8 Gallery](assets/images/screenshots-readme/samsunggalazy8-gallery.jpg)
+  Samsung Galaxy 8 View - Gallery
+  ![SamsungGalaxy8 Gallery](assets/images/screenshots-readme/samsunggalaxy8-gallery.jpg)
 
 ### Unfixed / Solved Bugs 
 - Logo and h1 in the .header would not display side by side without an imposed margin, the design did not fit well. Instead, the logo and h1 are positioned parralel and central to keep the design fluid independant of the screen size. 
