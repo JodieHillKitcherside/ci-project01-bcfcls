@@ -47,37 +47,36 @@ header {
     background: #ce1111;
 }
 
+.header {
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
 header::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.logo {
-    display: flex;
-    justify-content: space-around;
-}
-
 .logo img {
-    height: 50%;
-    width: 35%;
+    height: 20%;
+    width: 20%;
     border-radius: 50%;
 }
 
 .logo h1 {
-    font-size: 180%;
+    font-size: 30px !important;
     text-decoration: none;
 }
 
 /* nav bar */
 
-.header {
-    line-height: 75px;
-    text-transform: uppercase;
+#menu ul, .logo {
+    text-align: center;
 }
 
 #menu li {
-    float: right;
+    display: inline-block;
     list-style-type: none;
     letter-spacing: 3px;
     margin-right: 20px;
@@ -364,9 +363,34 @@ tr:hover {
 
 @media screen and (max-width: 1180px) {
 
+    .logo>h1 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    #menu li {
+        letter-spacing: 2px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
     #bottom-social img {
         width: 100%;
         height: fit-content;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .logo>h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #menu li {
+        letter-spacing: 2px;
+        margin-right: 16px;
+        font-size: 11px;
     }
 }
 
@@ -374,12 +398,12 @@ tr:hover {
 
     /* All pages */
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 30px;
+    #menu ul, .logo {
+        line-height: 30px; 
+    }
+    
+    .logo h1 {
+        font-size: 2.5vmax !important;
     }
 
     #hero-image {
@@ -459,21 +483,6 @@ tr:hover {
 
     .gallery video {
         height: 200px;
-    }
-}
-
-@media screen and (max-width: 990px) {
-
-
-    .logo>h1 {
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    #menu li {
-        letter-spacing: 2px;
-        margin-right: 16px;
-        font-size: 11px;
     }
 }
 
