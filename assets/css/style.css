@@ -215,7 +215,7 @@ tr:hover {
     margin: 0 auto;
 }
 
-.fantasy-rules-table {
+#fantasy-rules-table {
     border: 2px dotted #ce1111;
     display: flex;
     flex-wrap: wrap;
@@ -224,6 +224,7 @@ tr:hover {
     padding: 30px;
     box-sizing: border-box;
     width: 70%;
+    overflow-x: scroll;
 }
 
 #rules-extras {
@@ -275,7 +276,7 @@ tr:hover {
     height: 50%;
 }
 
-/* Social page feautres */
+/* Social page features */
 
 #news-social-sections {
     display: flex;
@@ -283,8 +284,6 @@ tr:hover {
 }
 
 #left-social {
-    display: flex;
-    justify-content: space-between;
     margin: 1.5%;
     padding: 1.5%;
     box-sizing: border-box;
@@ -293,8 +292,6 @@ tr:hover {
 }
 
 #right-social {
-    display: flex;
-    justify-content: space-between;
     margin: 1.5%;
     padding: 1.5%;
     box-sizing: border-box;
@@ -302,21 +299,11 @@ tr:hover {
     background-color: #f4f2f2;
 }
 
-#bottom-social {
-    display: flex;
-    justify-content: space-around;
-    margin: 1.5%;
-    padding: 1.5%;
-    box-sizing: border-box;
-    width: 100%;
-    height: fit-content;
-    border: 6px double #ce1111;
-    image-rendering: auto;
-}
-
 #twitter {
-    width: max-content;
+    width: 85%;
     overflow: auto;
+    border: 2px dotted #ce1111;
+    padding: 30px;
 }
 
 .twitter-timeline {
@@ -376,12 +363,6 @@ tr:hover {
         font-size: 35px;
         line-height: 30px;
     }
-
-    #bottom-social img {
-        width: 60%;
-        height: fit-content;
-    }
-}
 
 @media screen and (max-width: 990px) {
 
@@ -475,10 +456,8 @@ tr:hover {
         align-items: center;
     }
 
-    #bottom-social {
-        border: none;
-        width: 100%;
-        height: fit-content;
+    #left-social, #right-social {
+        width: 50%;
     }
 
     .gallery img {
@@ -495,6 +474,10 @@ tr:hover {
     #team-mentions img {
         width: 30%;
         height: 40%;
+    }
+
+    .twitter {
+        width: fit-content;
     }
 }
 
