@@ -215,7 +215,7 @@ tr:hover {
     margin: 0 auto;
 }
 
-#fantasy-rules-table {
+.fantasy-rules-table {
     border: 2px dotted #ce1111;
     display: flex;
     flex-wrap: wrap;
