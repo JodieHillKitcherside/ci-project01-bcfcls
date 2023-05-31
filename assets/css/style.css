@@ -170,13 +170,6 @@ tr:hover {
     justify-content: space-around;
 }
 
-#jb-goal img {
-    padding-top: 40px;
-    width: 392px;
-    height: 707px;
-    padding-left: 40px;
-}
-
 .home-ground-map {
     padding-bottom: 50%;
     position: relative;
@@ -405,11 +398,6 @@ tr:hover {
     .home-ground-map iframe {
         width: auto;
         height: auto;
-    }
-
-    #jb-goal img {
-        width: 30%;
-        height: 54%; 
     }
 
     #central-london-premier-section {
