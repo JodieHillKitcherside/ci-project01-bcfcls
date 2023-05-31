@@ -247,6 +247,11 @@ tr:hover {
     margin: 1%;
 }
 
+.cap-man-h3-img {
+    display: flex;
+    flex-direction: column;
+}
+
 .team-mentions img {
     width: 30%;
     height: 60%;
@@ -261,11 +266,6 @@ tr:hover {
     justify-content: space-evenly;
     padding: 1.5%;
     margin: 1%;
-}
-
-.captain-manager-quotes img {
-    width: 15%;
-    height: 50%;
 }
 
 /* Social page features */
@@ -451,17 +451,21 @@ tr:hover {
 @media screen and (max-width: 800px) {
 
     #fantasy-rules-table {
-        width: 100%;
+        width: 90%;
     }
 
-    #team-mentions img {
-        width: 30%;
-        height: 40%;
+    #team-mentions {
+        height: 80%;
+        margin: 20px;
     }
 
-    .captain-manager-quotes img {
-        width: 30%;
+    .team-mentions img {
         height: 40%;
+        width: 30%;
+    }
+
+    .captain-manager-quotes {
+        width: 80%;
     }
 
     .twitter {
@@ -484,4 +488,17 @@ tr:hover {
         letter-spacing: 2px;
         font-size: 8px;
     }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
 }
