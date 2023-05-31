@@ -15,7 +15,7 @@ The BCFCLS wesbite includes a home page with season updates and several other pa
 ## Source Pages and Features 
 
 ### Wireframe: 
-This is a basic format used to formalise a theory for the website. Ideas for the 5 pages are displayed here, including a suggestion for placement of sections. Since creating the website, placement of the items have been reconsidered and the hero image changed. The social page has also been added in addtion to the orginal plan. 
+This is a basic format used to formalise a theory for the website. Ideas for the 5 pages are displayed here, including a suggestion for placement of sections. Since creating the website, placement of the items have been reconsidered and the hero image changed. 
 ![Wireframe - Home](assets/images/screenshots-readme/home-wireframe.png)
 ![Wireframe - Fixtures](assets/images/screenshots-readme/fixtures-wireframe.png)
 ![BCFCLS Nav Bar](assets/images/screenshots-readme/team-wireframe.png)
