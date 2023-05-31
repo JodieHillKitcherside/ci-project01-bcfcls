@@ -184,7 +184,6 @@ tr:hover {
 }
 
 #home-ground-address {
-    float: right;
     margin: 0 1.5%;
     width: 35%;
 }
@@ -357,6 +356,8 @@ tr:hover {
         line-height: 30px;
     }
 
+}
+
 @media screen and (max-width: 990px) {
 
     .logo>h1 {
@@ -390,16 +391,6 @@ tr:hover {
 
     /* Fixtures page features */
 
-    #latest-upcoming-section {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .home-ground-map iframe {
-        width: auto;
-        height: auto;
-    }
-
     #central-london-premier-section {
         flex-direction: column;
         align-items: center;
@@ -407,7 +398,7 @@ tr:hover {
     }
 
     #central-london-premier-section table {
-        width: 100%;
+        width: fit-content;
     }
 
     #home-ground-address iframe {
@@ -466,6 +457,11 @@ tr:hover {
 
     .twitter {
         width: fit-content;
+    }
+
+    #news-social-sections {
+        display: flex;
+        flex-direction: column;
     }
 }
 
