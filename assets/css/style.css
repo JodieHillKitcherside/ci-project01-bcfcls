@@ -401,6 +401,10 @@ tr:hover {
         width: fit-content;
     }
 
+    #home-ground-address {
+        width: fit-content;
+    }
+
     #home-ground-address iframe {
         width: 100%;
         height: 100%;
@@ -452,6 +456,8 @@ tr:hover {
 
     #fantasy-rules-table {
         width: 90%;
+        margin: none;
+        padding: none;
     }
 
     #team-mentions {
