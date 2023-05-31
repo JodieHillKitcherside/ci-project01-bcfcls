@@ -147,6 +147,7 @@ Here the user can see all team asscoaited videos, including previous match snipp
   - Logo and menu text adjusts dependant on the screen size. 
   - Maps, all tables, and main images all re-size depandant on the screen. Tables and divs have overflow scroll bar options when re-sized. 
   - Borders and divs have been placed not to over spill. 
+  - All headings have been targeted under 800px to algin with the header text. As h1 has been used throughout the main body, this was important to reduce at a smaller screen size.
 
 # MR finds to consider
 
@@ -185,10 +186,17 @@ Here the user can see all team asscoaited videos, including previous match snipp
     - Team - missing headings or alternative text in quotes and mentions - the headings have been used to style from the h1/h2/h3/h4 in the main body css and body p font would not suit the format.
 ![Wave Checks](assets/images/screenshots-readme/wave.png)
 
-### Unfixed / Solved Bugs 
+### Solved Bugs 
 
 - Logo and h1 in the header would not display side by side without an imposed margin, the design did not fit well. Instead, the logo and h1 are positioned parralel and central to keep the design fluid independant of the screen size. 
 - Hero Image did not suit to cover screen as a background due to the image quality. Instead, the hero image has been set to fill and image rendering; auto. This is a much clear picture. 
+- W3 HTML Validator highlighted unclosed divs or sections missed (2) errors that have been updated. 
+- Jigsaw CSS Validator highlighted a margin: none used for the media response on the fantasy ules table section, which has been chnaged to 5px.
+- Images nested in between divs on the fixtures page would not size adjust well with the flex display command in situ. Similarly, images on the social page also followed the same pattern. These images have been removed for now. 
+
+### Unsolved Bugs 
+- Social Page Twitter Timeline rendering in Firefox not so good - unsure how to implement change. 
+
 
 ## Deployment
 
