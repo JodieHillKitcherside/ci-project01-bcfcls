@@ -47,7 +47,7 @@ This section addresses the upcoming season and gives notice to fees and expectat
 ### Fixtures features
 
 1. Latest Results table:
-This table provides the user information on the live results, contatining the last 4 results from previous games. This means the user can stay updated on previous wins, losses or draws.
+This table provides the user information on the live results, contatining the last 5 results from previous games. This means the user can stay updated on previous wins, losses or draws.
 2. Upcoming fixtures table:
 This table lists the upcoming matches to notify the user of the next game. Users may be either a player or observerer, and therefore this updates the user on how to attend/ participate based on venue, timing and location. 
 3. Central League table:
