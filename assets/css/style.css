@@ -450,7 +450,16 @@ tr:hover {
 
 @media screen and (max-width: 800px) {
 
+    #fantasy-rules-table {
+        width: 100%;
+    }
+
     #team-mentions img {
+        width: 30%;
+        height: 40%;
+    }
+
+    .captain-manager-quotes img {
         width: 30%;
         height: 40%;
     }
