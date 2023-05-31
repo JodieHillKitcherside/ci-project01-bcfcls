@@ -439,7 +439,8 @@ tr:hover {
         align-items: center;
     }
 
-    #left-social, #right-social {
+    #left-social,
+    #right-social {
         width: 50%;
     }
 
