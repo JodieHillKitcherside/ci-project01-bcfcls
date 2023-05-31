@@ -15,7 +15,7 @@ The BCFCLS wesbite includes a home page with season updates and several other pa
 ## Source Pages and Features 
 
 ### Wireframe: 
-This is a basic format used to formalise a theory for the website. Ideas for the 5 pages are displayed here, including a suggestion for placement of sections. Since creating the website, placement of the items have been reconsidered and the hero image changed. 
+This is a basic format used to formalise a theory for the website. Ideas for the 5 pages are displayed here, including a suggestion for placement of sections. Since creating the website, placement of the items have been reconsidered and the hero image changed.
 ![Wireframe - Home](assets/images/screenshots-readme/home-wireframe.png)
 ![Wireframe - Fixtures](assets/images/screenshots-readme/fixtures-wireframe.png)
 ![Wireframe - Team](assets/images/screenshots-readme/team-wireframe.png)
@@ -113,6 +113,7 @@ Here the user can see all team asscoaited videos, including previous match snipp
 - Red colour chosen throughout html header, headings and borders to match the colours of the team home colours. Red has also been used to aplly a sport style bold alert, and to draw attention for the user. 
 - Complimentary tones of grey and lighter red/ pink been identified to add texture to the design yet not loose focus from the red and white theme. 
 - In order to reduce the white background, more borders could be considered or images added. 
+- The header has been centralised and is larger in order to be stand out on any device. Could have applied a reduced header bar, however in order to be stand out and look different to the Bristol City FC main football club, a larger header has been chosen in order not to confuse the user. 
 
 ### Validator Testing 
 
@@ -224,3 +225,7 @@ The live link can be found here - https://jodiehillkitcherside.github.io/project
 - Logo Image sourced from [BCFC_fans_fc Twitter](https://twitter.com/bcfc_fans_fc)
 - The icons in the footer and on the team page from [BCFC_fans_fc TwitterFont Awesome](https://fontawesome.com/)
 - The fonts were taken from [Google Fonts](https://fonts.google.com/)
+
+### Inspiration
+
+- Bristol City Football Club, Premier League [BCFC site page](https://www.bcfc.co.uk/)
