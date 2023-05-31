@@ -457,8 +457,8 @@ tr:hover {
 
     #fantasy-rules-table {
         width: 90%;
-        margin: none;
-        padding: none;
+        margin: 5px;
+        padding: 5px;
     }
 
     #team-mentions {
